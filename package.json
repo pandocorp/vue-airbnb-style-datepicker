@@ -80,6 +80,6 @@
     }
   },
   "dependencies": {
-    "v-click-outside": "2.1.0"
+    "v-click-outside": "git+https://github.com/pandocorp/v-click-outside.git"
   }
 }
