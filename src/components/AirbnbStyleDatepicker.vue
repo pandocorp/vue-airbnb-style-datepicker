@@ -451,15 +451,7 @@ export default {
       let newDate = !newValue || newValue === '' ? '' : format(newValue, this.dateFormat)
       this.$emit('date-one-selected', newDate)
     },
-    dateOne(newValue, oldValue){
-      let newDate = !newValue || newValue === '' ? '' : format(newValue, this.dateFormat)
-      this.$emit('date-one-selected', newDate)
-    },
     selectedDate2(newValue, oldValue) {
-      let newDate = !newValue || newValue === '' ? '' : format(newValue, this.dateFormat)
-      this.$emit('date-two-selected', newDate)
-    },
-    dateTwo(newValue, oldValue){
       let newDate = !newValue || newValue === '' ? '' : format(newValue, this.dateFormat)
       this.$emit('date-two-selected', newDate)
     },
